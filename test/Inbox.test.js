@@ -5,7 +5,7 @@ import { describe, it, beforeEach } from 'mocha';
 import { inboxInterface, inboxBytecode } from '../compile';
 
 const web3 = new Web3(ganache.provider());
-
+// ab278992c722451f934d00b973d53a5e
 let accounts;
 let inbox;
 beforeEach(async () => {
