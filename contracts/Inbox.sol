@@ -8,7 +8,7 @@ contract Inbox {
         message = initialMessage;
     }
 
-    function setMessage(string calldata newMessage) private {
+    function setMessage(string calldata newMessage) public {
         message = newMessage;
     }
 }
