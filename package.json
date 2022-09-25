@@ -1,0 +1,27 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node --experimental-specifier-resolution=node deploy",
+    "test": "mocha --experimental-specifier-resolution=node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ganache": "^7.4.3",
+    "mocha": "^10.0.0",
+    "solc": "^0.8.17",
+    "web3": "^1.8.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
