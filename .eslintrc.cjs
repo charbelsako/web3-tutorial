@@ -19,6 +19,6 @@ module.exports = {
       functions: 'never',
     }],
     'prefer-const': 2,
-    'import/order': ['error', { groups: ['builtin'] }],
+    'import/order': ['error', { groups: ['builtin', 'external'] }],
   },
 };
